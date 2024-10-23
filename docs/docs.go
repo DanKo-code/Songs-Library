@@ -361,7 +361,9 @@ const docTemplate = `{
                     "maxLength": 100
                 },
                 "release_date": {
-                    "type": "string"
+                    "type": "string",
+                    "format": "date",
+                    "example": "2006-01-02"
                 },
                 "text": {
                     "type": "string",

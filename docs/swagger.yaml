@@ -18,6 +18,8 @@ definitions:
         maxLength: 100
         type: string
       release_date:
+        example: "2006-01-02"
+        format: date
         type: string
       text:
         maxLength: 10000
